@@ -1,0 +1,25 @@
+
+  <h2> Oidar</h2>
+
+<section>
+    <nav>
+      <ul>
+        <li><a [routerLink]="['home']" routerlinkActive="router-link-active">Home</a></li><br>
+        <li><a [routerLink]="['hamfest']" routerlinkActive="router-link-active">HamFests</a></li><br>
+        <li><a [routerLink]="['oidarevents']" routerlinkActive="router-link-active">Oidar Events</a></li>
+      </ul>
+    </nav>
+  </section>
+<section>
+    <div>
+    <router-outlet></router-outlet>
+  </div>
+
+</section>
+<footer>
+  <span>
+    <a href="mailto:linuxuser0626@gmail.com">Contact Admin</a>
+    <a href="http://arrl.org">Arrl</a>
+  </span>
+</footer>
+
